@@ -1,0 +1,314 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bitter|Saira+Extra+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Ropa+Sans');
+@import url('https://fonts.googleapis.com/css?family=Magra');
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre');
+
+* {
+   margin: 0px;
+   padding: 0px;
+
+}
+body{
+	background-color: white;
+}
+
+header{
+	background-color: white;
+	box-sizing: border-box;
+}
+
+
+
+h1{	
+	margin-left: 70px;
+	color:#4f4f4f;
+	font-family: 'Bitter', serif;
+	border-right: rgba(255,0,0,.5) 5px solid; 
+	padding-right: 5px;
+}
+
+.display_inline{
+	display: inline-block;
+}
+
+
+.info_panel{
+	position: relative;
+	width: 20%;
+}
+
+.corner_logo{
+	border-radius: 50%;
+	position: absolute;
+	bottom: -2px;
+	margin-left:10px;
+}
+
+
+
+.menu ul li a {
+	padding: 25px 10px;
+	text-decoration: none;
+	color: black;
+	transition: 0.5s;
+}
+
+
+.menu{
+	width: 65%;
+	text-align: right;
+}
+
+.menu ul{
+	list-style: none;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 1.25rem;
+
+}
+.menu ul li {
+	display: inline-block;
+	background-color: #ccc;
+	padding: 25px 0px;
+}
+
+.menu ul li a {
+	padding: 25px 10px;
+	text-decoration: none;
+	color: black;
+	transition: 0.5s;
+}
+
+.menu ul li a:hover{
+	background-color: rgba(255,0,0,.5);
+}
+
+
+
+.latest_news{
+	font-family: "Trebuchet MS";
+	height: 400px;
+	position: relative;
+	background-color: green;
+	background:url(first.jpg) no-repeat;
+	background-size: cover;
+	text-align: center;	
+}
+
+.short_news{
+	box-sizing: border-box;
+	padding:5px;
+	text-align: justify;
+	color: white;
+	width: 30%;
+	float: right;
+	margin-top:250px;
+	background-color: rgba(0,0,0,.8);
+}
+
+h2{
+	border-bottom: 1px solid #ff6666;
+}
+
+.short_news p {
+	margin-top: 5px;
+}
+
+.more_link{
+	float: right;
+	text-decoration: none;
+	padding: 2px 5px;
+	color:#93ddff;
+	background-color: transparent;
+	border: 2px solid #93ddff;
+	border-radius: 5px; 
+}
+
+.switcher ul{
+	position: absolute;
+	bottom: 0;
+	margin-left: 50%;
+}
+.switcher ul li {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-right: 10px;
+	border-radius: 50%;
+	background-color: red;
+	box-shadow: 0 10px 10px black;
+	opacity: 0.8;
+}
+
+.switcher .active{
+	background-color:#ccc;
+}
+
+.switcher ul li:hover{
+	background-color:#ccc;
+}
+
+
+
+.container{
+	display: flex;
+}
+
+.main{
+	width: 70%;
+}
+
+.right_panel{
+	width: 30%;
+	flex:1;
+	border-left:3px solid #9b5252;
+	
+}
+
+
+/*--------Imagebox---------------*/
+
+.title_div{
+	background-color:#5bacff;
+	color:#rgba(0,0,0,.5);
+	border-bottom: 2px solid #9b5252;
+	font-family: 'Magra', sans-serif;
+	padding-left: 20px;
+}
+
+.title_div h2{ border:none; }
+
+.title_div a {
+	float: right;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+.news_block{
+	margin-left: 15px;
+
+}
+
+.single_news{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.news_block img {
+	float:left;
+	margin-right: 10px;
+}
+
+.single_news{
+	border-bottom: 2px solid #9b5252;
+	
+}
+
+.news_texts{
+	vertical-align: top;
+	font-family: 'Magra', sans-serif;
+
+}
+
+.news_texts a{
+
+	font-weight: bold;
+	color: black;
+	font-size: 1.2rem;
+	margin-bottom: 5px;
+}
+
+.news_texts .more{
+	font-size: 0.75em;
+	margin-left: 3px;
+	color:#5bacff;
+
+}
+
+.news_texts p{
+	font-family: 'Frank Ruhl Libre', serif;
+}
+
+.img_news{
+	width: 300px;
+}
+
+/*-------------------------right column----------------*/
+
+.names_ppv{
+	vertical-align: top;
+}
+
+.upcoming{
+	background-color:#e5efff;
+}
+
+.upcoming h3{
+	font-family: 'Ropa Sans', sans-serif;
+	padding-left: 4px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	background-color: #ccc;
+}
+
+.upcoming ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.upcoming ul li{
+	border-bottom: 2px solid #ccc;
+	padding-top: 2px;
+	padding-left: 4px;: 
+}
+
+.names_ppv a{
+	text-decoration: none;
+	color:#4f4f4f;
+	font-family: 'Bitter', serif;
+}
+
+.names_ppv p{
+	font-size: 0.75em;
+	margin-top: 5px;
+}
+
+
+@media only screen and (max-width: 900px){
+
+
+	.container{
+		display: block;
+		width: 100%;
+	}
+
+	.main{
+		width: 100%;
+	}
+
+	.news_texts img{
+		display: block;
+		float: none;
+	}
+
+	.right_panel{
+		display: block;
+		width: 100%;
+		border: none;
+		margin: 0;
+	}
+
+	.short_news{
+		width: 100%;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	header{
+		padding: 10px 0;
+	}
+
+} 

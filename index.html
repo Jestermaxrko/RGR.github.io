@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Wrestling</title>
+</head>
+<body>
+
+	<div id="wrapper">
+		<header>
+
+			<div class="info_panel display_inline">
+						<img class="corner_logo display_inline" src="http://lorempixel.com/50/50">
+						<h1 class="display_inline">WrestlingBoard<h1>	
+			</div>
+
+			<div class="menu display_inline">
+				<nav>
+					<ul>
+						<li><a href="#">Shows</a></li
+						><li><a href="#">Superstars</a></li
+						><li><a href="#">Tickets</a></li>
+					</ul>
+				</nav>
+			</div>
+
+		</header>
+
+		<section class="latest_news" id="latest_news">
+			<div class="switcher">
+				<ul id="news_point">
+					<li value="0" class="active" onclick="change_news(this)"></li>
+					<li value="1" onclick="change_news(this)"></li>
+					<li value="2" onclick="change_news(this)"></li>
+					<li value="3" onclick="change_news(this)"></li>
+				</ul>
+			</div>
+
+			<div class="short_news">
+				<h2 class="news_title" id="news_title">WWE TLC 2017</h2>
+				<p id="news_text"> This sunday live in Toronto</p>
+				<a href="" class="more_link" id="more_link">View</a>
+
+			</div>
+
+			<script type="text/javascript" src="change_news.js"></script>
+
+		</section>
+
+		<div class="container">
+			
+			<div class="main display_inline">
+				
+				<section class="news">
+					
+
+					<div class="title_div">
+						<h2 class="display_inline"> Latest news</h2>
+						<a href="#">View all</a>
+					</div>
+
+					<div class="news_block">
+						<div class="single_news">
+							<div class="display_inline news_texts">
+								<img src="cardnews.jpg" class="img_news"> 
+								<a href="#">Card changed at TLC</a><br>
+								<span>TNullam nec consectetur velit. Nulla aliquam, sem in condimentum tincidunt, velit arcu sodales ipsum, at placerat orci </span><a class="more" href="#">more...</a>
+							</div>
+						</div>
+
+						<div class="single_news">
+							<div class="display_inline news_texts">
+								<img src="reigns.jpg" class="img_news"> 
+								<a href="#">Roman Reigns was injured at last show </a><br>
+								<span>TNullam nec consectetur velit. Nulla aliquam, sem in condimentum tincidunt, velit arcu sodales ipsum, at placerat orci </span><a class="more" href="#">more...</a>
+							</div>
+						</div>
+
+
+					</div>
+				</section>
+			</div>
+
+			<div class="right_panel display_inline">
+				<section class="upcoming">
+					<h3>Upcoming shows</h3>
+
+					<ul>
+						<li>
+							<div class="display_inline">
+							<img src="logo/wwe.png"> 
+							</div>
+							<div class="display_inline names_ppv">
+								<a href="#">WWE TLC</a>
+								<p >22/10/2017 </p>
+							</div>
+						</li>
+
+						<li>
+							<div class="display_inline">
+							<img src="logo/pwg.png"> 
+							</div>
+							<div class="display_inline names_ppv">
+								<a href="#">PWG Battle of Los Angeles</a>
+								<p >22/10/2017 </p>
+							</div>
+						</li>
+
+						<li>
+							<div class="display_inline">
+							<img src="logo/tna.png"> 
+							</div>
+							<div class="display_inline names_ppv">
+								<a href="#">TNA Bound for Glory</a>
+								<p >22/10/2017 </p>
+							</div>
+						</li>
+
+					</ul>
+
+				</section>
+
+				<section class="upcoming">
+					<h3>Ended shows</h3>
+
+					<ul>
+						<li>
+							<div class="display_inline">
+							<img src="logo/wwe.png"> 
+							</div>
+							<div class="display_inline names_ppv">
+								<a href="#">WWE No Mercy</a>
+								<p >20/09/2017 </p>
+							</div>
+						</li>
+
+						<li>
+							<div class="display_inline">
+							<img src="logo/pwg.png"> 
+							</div>
+							<div class="display_inline names_ppv">
+								<a href="#">PWG Head Like a Cole</a>
+								<p >22/08/2017 </p>
+							</div>
+						</li>
+
+						<li>
+							<div class="display_inline">
+							<img src="logo/tna.png"> 
+							</div>
+							<div class="display_inline names_ppv">
+								<a href="#">TNA Destenation X</a>
+								<p >17/09/2017 </p>
+							</div>
+						</li>
+
+					</ul>
+
+				</section>
+
+
+			</div>
+
+		</div>
+
+	</div>
+
+
+</body>
+</html>
